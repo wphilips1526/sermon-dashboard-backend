@@ -56,9 +56,5 @@ app.post('/generate-teacher-manual', (req, res) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-app.post('/backup', (req, res) => {
-  res.json({ message: 'Backup created successfully' });
-});
-
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
